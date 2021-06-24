@@ -1,4 +1,4 @@
-import React, {Component, useState} from "react";
+import React, {Component, useState, useEffect } from "react";
 import '../styles/App.css';
 
 const App = () => {
@@ -77,15 +77,10 @@ const App = () => {
                            setSuccess(true);
                            let out = getEmail.split("@");
                            setMsg(out[0]);
-                          
-                           
-
-                        }
-                     
+                          }
                        }
                     }
                 }
-                
             }
           }         
        } 
